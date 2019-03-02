@@ -1,0 +1,304 @@
+.loading_input {
+    background-color: #ffffff !important;
+    background-image: url(/src/assets/ajax-loader.gif) !important;
+    background-size: 15px 15px !important;
+    background-position: 98% 45% !important;
+    background-repeat: no-repeat !important;
+}
+.single-bill-logo{
+  margin-top: 10%;
+}
+.single-bill-title{
+  text-align: center;
+    font-size: 18px;
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    padding: 30px 5px;
+    font-weight: 200;
+}
+.single-bill-logo img {
+    display: block;
+    margin: 0px auto;
+    max-width: 250px;
+}
+.bill_title{
+    color: #005ca5;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -.16px;
+    line-height: 28px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+.loadinggif {
+    background:url('../assets/ajax-loader.gif') no-repeat 95% center; 
+    background-size: 16px 16px;
+}
+#comp_kwese .dropdown-menu.open{
+    width: 10px;
+    max-height: 174px !important;
+}
+#comp_kwese .bootstrap-select {
+    margin-bottom: 10px;
+}
+#comp_kwese .kwese_form1 {
+    padding: 1px;
+}
+
+.search_err_msg{
+    color: red;
+    padding-left: 15px;
+}
+
+#search_bill_title {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    color: #172b4d;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 28px;
+    letter-spacing: -.16px;
+    line-height: 28px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+.bill_search_input{
+    margin:12px;
+}
+.setting-title{
+    font-weight: 300;
+}
+.search_bill_radio{
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    color: #172b4d;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.search_box {
+    padding-bottom: 20px;
+}
+
+.prefix_select{
+    width: 30%;
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+}
+.prefix_input{
+    border-radius: 0px;
+}
+select{
+    width:100px;
+}
+#final_search_table td {
+    text-align: left;
+}
+#final_search_table th {
+    text-align: left;
+}
+
+.panel-heading{
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 5px 18px;
+    margin-left: 13px;
+    margin-right: 12px;
+}
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+    cursor: pointer;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+    cursor: pointer;
+}
+.panel-heading a.accordion-toggle {
+    color: #333;
+    text-decoration: none;
+}
+.s_pay_bill{
+    cursor: pointer;
+}
+#innerPay{
+    margin:0; 
+    width:100%; 
+    min-height:920px; 
+    border:0;
+}
+.progress-pay{
+    display: none;
+    /* margin-top: -18px; */
+    margin-bottom: 8px;
+}
+.progress {
+    height: 10px;
+    margin: 14px 0px 14px 0px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+@media screen and (max-width: 991px) {
+    .prefix_select, #nssf_option{
+        width: 100% !important;
+        border-radius: 3px !important;
+        border-right: 1px solid #ccc !important;
+    }
+    .prefix_input, #nssf_option_input{
+        border-radius: 3px !important;
+    }
+}
+
+@media (max-width:1200px) and (min-width:990px) {
+  .s_pay_bill{
+    font-size: 12px !important;
+  }
+
+}
+@media screen and (max-width: 415px) {
+    .search_bill_radio{
+        width: 100%;
+        margin: 10px;
+    }
+    .s_date{
+        display: none;
+    }
+    .s_due_date{
+        display: none;
+    }
+    #final_search_table{
+        font-size: 8px;
+    }
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100px;
+}
+
+#customMsgSearch{
+  margin-left: 10px;
+}
+
+.remove_btn {
+    color: red;
+    float: right;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.btn-multi-srv {
+    color: #f5f5f5;
+    border-radius: 3px;
+    padding: 3px 7px 3px 8px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.btn-multi-srv:active {
+  position:relative;
+  top:1px;
+}
+.remove_btn:hover{
+    font-size: 17px;
+}
+.remove_btn:active{
+    position: absolute;
+    bottom: 16px;
+}
+.multi-srv-title{
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    color: #172b4d;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+div[id^="main_service"] {
+    clear: both;
+}
+.form-err {
+    background-color: #eb9d9782;
+}
+.serviceDatepicker {
+    margin-bottom: 10px;
+}
+
+#nssf_option {
+    width: 30%;
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+}
+
+#nssf_option_input {
+    border-radius: 0px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.placeholder { 
+    color: #aaa; 
+}
+
+.sp-font{
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    color: #172b4d !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+}
+select:required:invalid {
+    color: gray;
+  }
+  option[value=""][disabled] {
+    display: none;
+  }
+  option {
+    color: black;
+  }
+
+  .comp-alert{
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-left: 15px; 
+  }
