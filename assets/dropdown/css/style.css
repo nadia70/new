@@ -70,8 +70,16 @@
   border-top: 0.35em solid transparent;
   margin-left: 0.3rem; }
 
+  .dropdown-item{
+
+    border-bottom: 0.05em solid white;
+    
+  }
+
+
 .dropdown-menu .dropdown-item:focus {
-  outline: 0; }
+  outline: 0; 
+}
 
 .nav-dropdown {
   font-size: 0.75rem;
@@ -117,10 +125,11 @@
     margin-left: 0.125rem;
     top: 0; }
   .nav-dropdown .dropdown-item {
-    font-weight: 500;
+    font-weight: 200;
     line-height: 2;
     padding: 0.3846em 4.615em 0.3846em 1.5385em;
     position: relative;
+    text-align: left;
     transition: color .2s ease-in-out, background-color .2s ease-in-out; }
     .nav-dropdown .dropdown-item::after {
       margin-top: -0.3077em;
